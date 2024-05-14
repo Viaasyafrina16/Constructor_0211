@@ -13,8 +13,10 @@ public:
     void printAll();
 
     mahasiswa(string pnama)
-    
+    {
+        nama = pnama;
+        setID();
     }
-
-
 };
+
+int mahasiswa::nim = 211;
